@@ -258,7 +258,7 @@ class Gear(object):
         if(counter<5000):
             outstring = "進行"+str(counter)+"次重複運算後,得到合用的facewidth值為:"+str(facewidth)
         return outstring
-    #@+node:2015.20141125111449.1817: *3* w12_1
+    #@+node:2015.20141125062058.1754: *3* w12_1
     @cherrypy.expose
     def w12_1(self, *args, **kwargs):
         outstring = '''
@@ -273,7 +273,7 @@ class Gear(object):
           </html>
     '''
         return outstring
-    #@+node:2015.20141125111449.1819: *3* w12_2
+    #@+node:2015.20141125062058.1755: *3* w12_2
     @cherrypy.expose
     def w12_2(self, *args, **kwargs):
         outstring = '''
@@ -294,7 +294,7 @@ class Gear(object):
         </html>
     '''
         return outstring
-    #@+node:2015.20141125111449.1821: *3* w12_3
+    #@+node:2015.20141125062058.1756: *3* w12_3
     @cherrypy.expose
     def w12_3(self, *args, **kwargs):
         outstring = '''
@@ -316,7 +316,7 @@ class Gear(object):
          </html>
     '''
         return outstring
-    #@+node:2015.20141125111449.1823: *3* w12_4
+    #@+node:2015.20141125062058.1757: *3* w12_4
     @cherrypy.expose
     def w12_4(self, *args, **kwargs):
         outstring = '''
@@ -372,7 +372,7 @@ class Gear(object):
     </html>
     '''
         return outstring
-    #@+node:2015.20141125111449.1825: *3* w12_5
+    #@+node:2015.20141125062058.1758: *3* w12_5
     @cherrypy.expose
     def w12_5(self, *args, **kwargs):
         outstring = '''
@@ -408,7 +408,7 @@ class Gear(object):
     </html>
     '''
         return outstring
-    #@+node:2015.20141125111449.1827: *3* w12_6
+    #@+node:2015.20141125062058.1759: *3* w12_6
     @cherrypy.expose
     def w12_6(self, *args, **kwargs):
         outstring = '''
