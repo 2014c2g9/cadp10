@@ -119,7 +119,10 @@ root = gear.Gear()
 # 將 gear.py 中的 Gear() 類別與 gear URL 對應
 #root.gear = gear.Gear()
 root.guess = Guess()
-
+# cp 為 computer programming 課程cadp11網站
+root.cp = gear.Gear()
+# cadp 為 computer aided design practice 課程cadp11網站
+root.cadp = Guess()
 
 application_conf = {# 設定靜態 templates 檔案目錄對應
         '/templates':{
